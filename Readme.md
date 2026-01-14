@@ -1,5 +1,9 @@
 # GoTo - Fast Browser Resource Search
 
+GoTo(Chrome Extension)
+
+[![Available in the Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Available-blue?logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/gpmflnjabklfdnfeideahbkmojacnped)
+
 [English](#english) | [日本語](#日本語)
 
 ---
