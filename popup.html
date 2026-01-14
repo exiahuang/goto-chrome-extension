@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <title>GoTo</title>
-  <link rel="stylesheet" href="popup.css" />
-</head>
-
-<body>
-  <div class="search-container">
-    <input id="search" placeholder="Search tabs, bookmarks, history..." autofocus />
-  </div>
-  <ul id="results"></ul>
-  <div class="footer">
-    <div class="footer-left">
-      <div id="lang-toggle" class="lang-toggle">JP/EN</div>
-      <div class="limit-box">
-        <span id="limit-label">Limit:</span>
-        <input type="number" id="limit-input" min="10" max="200" step="10">
-      </div>
-    </div>
-    <div id="help-text" class="help">↑↓ Select　Enter Open　Esc Close</div>
-  </div>
-  <script src="popup.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoTo</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
